@@ -43,6 +43,10 @@
   border: 1px black solid;
 }
 
+#box5-container {
+  border: 1px black solid;
+}
+
 /* ----------------clip-path----------------------------------- */
 
 .clip-me {
@@ -53,8 +57,10 @@
 /* ----------------footer----------------------------------- */
 
 footer {
-  height: 20vh;
+  height: 40vh;
   background-color: rgb(85, 84, 84);
+  display: flex;
+  align-items: center;
 }
 
 /* ----------------nav----------------------------------- */
@@ -69,6 +75,14 @@ footer {
   width: 100px;
 }
 
+#logo-html,
+#logo-css,
+#logo-js,
+#logo-bs {
+  /* width: 60px; */
+  height: 100px;
+}
+
 /* ----------------font----------------------------------- */
 
 .title-cat {
@@ -81,7 +95,7 @@ footer {
   color: white;
 }
 
-#col2 h2 {
+#col2 h4 {
   color: white;
 }
 
@@ -96,9 +110,14 @@ footer {
 }
 
 .card-deck p,
-.card-deck h5 {
+.card-deck h6 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo-github {
+  color: white;
+  font-size: 30px;
 }
 
 /* ----------------form----------------------------------- */
