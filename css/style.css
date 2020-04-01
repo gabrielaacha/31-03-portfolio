@@ -8,16 +8,13 @@
   background-color: rgb(71, 70, 70);
 }
 
-#box3-container {
-  background-color: rgb(71, 70, 70);
+#box3-container,
+#card-dec {
+  background-color: (71, 70, 70);
 }
 
 #box4-container {
   border: 1px black solid;
-}
-
-#card-deck {
-  background-color: rgb(71, 70, 70);
 }
 
 #col2 {
