@@ -38,6 +38,10 @@
   border: 5px red solid;
 }
 
+#box4-container #submit {
+  border: 1px black solid;
+}
+
 /* ----------------clip-path----------------------------------- */
 
 .clip-me {
