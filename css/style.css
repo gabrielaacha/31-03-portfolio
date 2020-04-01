@@ -95,8 +95,38 @@ footer {
   color: black;
 }
 
+.card-deck p,
+.card-deck h5 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ----------------form----------------------------------- */
 
 #box-container #submit {
   border: 1px black solid;
+}
+
+/* ----------------cards----------------------------------- */
+/*copy-pasted*/
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+/*copy-pasted*/
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 1px solid black;
+  border-radius: 0rem;
 }
