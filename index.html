@@ -73,7 +73,7 @@
         <div class="col-6 text-right" id="col1">
           <img class="clip-me" src="./img/portrait/GA_5.jpg" alt="" />
         </div>
-        <div class="col-3 text-left align-items-center" id="col2">
+        <div class="col-3 text-left align-items-end" id="col2">
           <h2>Gabriela Acha</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
@@ -177,23 +177,29 @@
     </div>
     <!------------------------------------------------------------------------------------->
     <div class="container" id="box4-container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center text-center pt-5 pb-5">
         <div class="span12">
-          <div class="thumbnail center well well-small text-center">
-            <p>Subscribe to our weekly Newsletter and stay tuned.</p>
-            <form action="" method="post">
-              <div class="input-prepend">
-                <span class="add-on"><i class="icon-envelope"></i></span>
-                <input type="text" id="" name="" placeholder="your@email.com" />
-              </div>
-              <br />
+          <div class="thumbnail center well well-small" id="subscribe"></div>
+          <p>Subscribe to my Newsletter and stay tuned.</p>
+          <form action="" method="post">
+            <div class="input-prepend">
+              <span class="add-on"><i class="icon-envelope"></i></span>
               <input
-                type="submit"
-                value="Subscribe Now!"
-                class="btn btn-large"
+                type="text"
+                id=""
+                class="text-center"
+                name=""
+                placeholder="your@email.com"
               />
-            </form>
-          </div>
+            </div>
+            <br />
+            <input
+              type="submit"
+              value="Subscribe"
+              class="btn btn-large"
+              id="sumbit"
+            />
+          </form>
         </div>
       </div>
     </div>
