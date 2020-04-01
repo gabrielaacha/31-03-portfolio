@@ -8,10 +8,6 @@
   background-color: rgb(71, 70, 70);
 }
 
-.box2 {
-  background-color: blue;
-}
-
 #box3-container {
   background-color: rgb(71, 70, 70);
 }
@@ -20,8 +16,12 @@
   border: 1px black solid;
 }
 
+#card-deck {
+  background-color: rgb(71, 70, 70);
+}
+
 #col2 {
-  border: 2px black solid;
+  /* border: 2px black solid; */
 }
 
 #box1-container {
@@ -31,6 +31,10 @@
 #container3-row1,
 #container3-row2,
 #container2-row1 {
+  border: 1px black solid;
+}
+
+.span12 {
   border: 1px black solid;
 }
 
@@ -69,6 +73,11 @@ footer {
 }
 
 /* ----------------font----------------------------------- */
+
+.title-cat {
+  color: rgb(0, 0, 253);
+  font-weight: bolder;
+}
 
 #col2 p {
   font-size: 12px;
