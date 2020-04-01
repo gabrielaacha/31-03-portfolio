@@ -1,31 +1,25 @@
-header {
-  height: 10vh;
+#top-nav {
   background-color: hotpink;
 }
 
-.box1 {
-  height: 60vh;
-  background-color: orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#box1-container {
+  background-color: rgb(71, 70, 70);
 }
 
 .box2 {
-  height: 60vh;
   background-color: blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.box3 {
-  height: 120vh;
-  background-color: green;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+#box3-container {
+  background-color: rgb(71, 70, 70);
+}
+
+#box4-container {
+  border: 1px black solid;
+}
+
+#col2 {
+  border: 2px border solid;
 }
 
 .clip-me {
@@ -37,31 +31,24 @@ header {
   border: 1px black solid;
 }
 
-.bg-light {
-  background-color: hotpink !important;
-}
-
 .card-text {
   font-size: 10px;
 }
 
-#col1,
 #col2 {
-  display: flex;
-  justify-content: center;
-}
-
-#col2 {
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
 }
 
 footer {
   height: 20vh;
-  background-color: indigo;
+  background-color: rgb(85, 84, 84);
 }
 
 #box2-container {
   border: 5px red solid;
+}
+
+#container3-row1 {
 }
 
 #container3-row1,
@@ -72,4 +59,17 @@ footer {
 
 .navbar-toggler {
   /* background-color: hotpink; */
+}
+
+.img-logo {
+  width: 100px;
+}
+
+#col2 p {
+  font-size: 12px;
+  color: white;
+}
+
+#col2 h2 {
+  color: white;
 }
