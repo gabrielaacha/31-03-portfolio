@@ -17,23 +17,102 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="top1"></header>
+    <!------------------------------------------------------------------------------------->
+    <header class="top1">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
     <!------------------------------------------------------------------------------------->
     <div class="box1">
-      <div class="container">
-        <!-- Content here -->
+      <div class="container" id="box1-container">
+        <div class="row">
+          <div class="col justify-content-end" id="col1">
+            <img
+              class="clip-me justify-content-end"
+              src="./img/portrait/GA_5.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="col flex-column justify-content-start
+          align-items-center"
+            id="col2"
+          >
+            <h3 class="justify-content-start">Gabriela Acha</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
+              libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Corrupti, asperiores.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <!------------------------------------------------------------------------------------->
     <div class="box2">
-      <div class="container">
-        <!-- Content here -->
+      <div class="container" id="box2-container">
+        <div class="row" id="container2-row1">
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              commodi labore placeat minima nostrum ullam facilis obcaecati
+              suscipit quibusdam voluptatibus.
+            </p>
+          </div>
+          <!-- <div class="col"></div>
+          <div class="col"></div> -->
+        </div>
       </div>
     </div>
     <!------------------------------------------------------------------------------------->
     <div class="box3">
-      <div class="container">
-        <div class="row">
+      <div class="container justify-content-center" id="box3-container">
+        <div class="row " id="container3-row1">
           <div class="col">
             <div class="card" style="width: 15rem;">
               <img src="./img/toggle.png" class="card-img-top" alt="..." />
@@ -74,7 +153,7 @@
         </div>
         <br />
         <!------------------------------------------------------------------------------------->
-        <div class="row">
+        <div class="row" id="container3-row2">
           <div class="col">
             <div class="card" style="width: 15rem;">
               <img src="./img/toggle.png" class="card-img-top" alt="..." />
@@ -116,5 +195,7 @@
         <!------------------------------------------------------------------------------------->
       </div>
     </div>
+    <!------------------------------------------------------------------------------------->
+    <footer></footer>
   </body>
 </html>

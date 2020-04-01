@@ -1,16 +1,22 @@
 header {
-  height: 20vh;
+  height: 10vh;
   background-color: hotpink;
 }
 
 .box1 {
   height: 60vh;
   background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box2 {
   height: 60vh;
   background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box3 {
@@ -20,4 +26,50 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.clip-me {
+  width: 200px;
+  clip-path: circle(40% at 50% 50%);
+}
+
+#box1-container {
+  border: 1px black solid;
+}
+
+.bg-light {
+  background-color: hotpink !important;
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+#col1,
+#col2 {
+  display: flex;
+  justify-content: center;
+}
+
+#col2 {
+  background-color: lightcoral;
+}
+
+footer {
+  height: 20vh;
+  background-color: indigo;
+}
+
+#box2-container {
+  border: 5px red solid;
+}
+
+#container3-row1,
+#container3-row2,
+#container2-row1 {
+  border: 1px black solid;
+}
+
+.navbar-toggler {
+  /* background-color: hotpink; */
 }
