@@ -1,68 +1,75 @@
 /* ----------------colors for reference----------------------------------- */
 
-#top-nav {
-  background-color: hotpink;
+body {
+  background-color: #a6abab;
 }
 
 #box1-container {
-  background-color: rgb(71, 70, 70);
+  background-color: #3d3d3d;
 }
 
 #box3-container,
 #card-dec {
-  background-color: rgb(71, 70, 70);
+  background-color: #3d3d3d;
 }
 
-#box4-container {
+/* #box4-container {
   border: 1px black solid;
-}
+} */
 
 #col2 {
   /* border: 2px black solid; */
 }
 
-#box1-container {
+/* #box1-container {
   border: 1px black solid;
-}
+} */
 
-#container3-row1,
+/* #container3-row1,
 #container3-row2,
 #container2-row1 {
   border: 1px black solid;
-}
+} */
 
-.span12 {
+/* .span12 {
   border: 1px black solid;
-}
+} */
 
-#box2-container {
+/* #box2-container {
   border: 5px red solid;
-}
+} */
 
 #box4-container #submit {
-  border: 1px black solid;
+  border: 1px #3d3d3d solid;
 }
 
-#box5-container {
-  border: 1px black solid;
+#box4-container #submit:hover {
+  background-color: #ffff05;
 }
 
-#footer-container {
+/* #box5-container {
   border: 1px black solid;
-}
+} */
 
-/* ----------------clip-path----------------------------------- */
+/* #footer-container,
+#col-footer-logos {
+  border: 1px black solid;
+} */
 
-.clip-me {
-  width: 200px;
-  clip-path: circle(40% at 50% 50%);
+/* ----------------portrait----------------------------------- */
+
+#box1-container .avatar {
+  vertical-align: middle;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
 }
 
 /* ----------------footer----------------------------------- */
 
 footer {
   height: 40vh;
-  background-color: rgb(85, 84, 84);
+  background-color: #8d07f6;
   display: flex;
   align-items: center;
 }
@@ -83,31 +90,37 @@ footer {
 #logo-css,
 #logo-js,
 #logo-bs {
-  /* width: 60px; */
-  height: 100px;
+  height: 7rem;
 }
 
 #logo-github,
 #logo-linkedin,
 #logo-instagram {
-  color: white;
+  color: #a6abab;
+  font-size: 30px;
+}
+
+#logo-github:hover,
+#logo-linkedin:hover,
+#logo-instagram:hover {
+  color: #ffff05;
   font-size: 30px;
 }
 
 /* ----------------font----------------------------------- */
 
 .title-cat {
-  color: rgb(0, 0, 253);
+  color: #0029fa;
   font-weight: bolder;
 }
 
 #col2 p {
   font-size: 12px;
-  color: white;
+  color: #a6abab;
 }
 
 #col2 h4 {
-  color: white;
+  color: #a6abab;
 }
 
 .card-text {
@@ -117,23 +130,27 @@ footer {
 #subscribe p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color: black;
+  color: #3d3d3d;
 }
 
 .card-deck p,
 .card-deck h6 {
-  color: white;
+  color: #a6abab;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ----------------form----------------------------------- */
 
-#box-container #submit {
+/* #box-container #submit {
   border: 1px black solid;
+} */
+
+#box4-container #form-email:hover {
+  border: 3px #ffff05 solid;
 }
 
 /* ----------------cards----------------------------------- */
-/*copy-pasted*/
+/*smart copy-pasted*/
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -141,7 +158,7 @@ footer {
   padding: 1.25rem;
 }
 
-/*copy-pasted*/
+/*smart copy-pasted*/
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -151,7 +168,23 @@ footer {
   min-width: 0;
   word-wrap: break-word;
   background-color: transparent;
+  /* background-clip: border-box; */
+  border: transparent;
+  /* border-radius: 0rem; */
+}
+
+.card:hover {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
   background-clip: border-box;
-  border: 1px solid black;
+  border: 1px solid #ffff05;
   border-radius: 0rem;
 }
+
+/* --------------------------------------------------- */
