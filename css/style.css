@@ -1,4 +1,4 @@
-/* ----------------colors for reference----------------------------------- */
+/* ----------------colors----------------------------------- */
 
 body {
   background-color: #a6abab;
@@ -13,13 +13,27 @@ body {
   background-color: #3d3d3d;
 }
 
+#box4-container #submit {
+  border: 1px #3d3d3d solid;
+}
+
+#box4-container #submit:hover {
+  background-color: #ffff05;
+}
+
+#box1-container p:hover,
+#box1-container h4:hover {
+  color: #ffff05;
+}
+
+/* ----------------colors for reference----------------------------------- */
+
 /* #box4-container {
   border: 1px black solid;
 } */
 
-#col2 {
-  /* border: 2px black solid; */
-}
+/*#col2 {
+  border: 2px black solid; */
 
 /* #box1-container {
   border: 1px black solid;
@@ -39,14 +53,6 @@ body {
   border: 5px red solid;
 } */
 
-#box4-container #submit {
-  border: 1px #3d3d3d solid;
-}
-
-#box4-container #submit:hover {
-  background-color: #ffff05;
-}
-
 /* #box5-container {
   border: 1px black solid;
 } */
@@ -65,6 +71,13 @@ body {
   border-radius: 50%;
 }
 
+#box1-container .avatar:hover {
+  vertical-align: middle;
+  width: 10rem;
+  height: 10rem;
+  border: 1px #ffff05 solid;
+}
+
 /* ----------------footer----------------------------------- */
 
 footer {
@@ -76,8 +89,12 @@ footer {
 
 /* ----------------nav----------------------------------- */
 
-.navbar-toggler {
-  /* background-color: hotpink; */
+#nav-top {
+  background-color: #3d3d3d;
+}
+
+#nav-top .nav-item:hover {
+  border-bottom: 1px #ffff05 solid;
 }
 
 /* ----------------logos----------------------------------- */
@@ -97,7 +114,7 @@ footer {
 #logo-linkedin,
 #logo-instagram {
   color: #a6abab;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 #logo-github:hover,
