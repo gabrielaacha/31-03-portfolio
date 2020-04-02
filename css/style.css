@@ -47,6 +47,10 @@
   border: 1px black solid;
 }
 
+#footer-container {
+  border: 1px black solid;
+}
+
 /* ----------------clip-path----------------------------------- */
 
 .clip-me {
@@ -83,6 +87,13 @@ footer {
   height: 100px;
 }
 
+#logo-github,
+#logo-linkedin,
+#logo-instagram {
+  color: white;
+  font-size: 30px;
+}
+
 /* ----------------font----------------------------------- */
 
 .title-cat {
@@ -113,11 +124,6 @@ footer {
 .card-deck h6 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-#logo-github {
-  color: white;
-  font-size: 30px;
 }
 
 /* ----------------form----------------------------------- */
